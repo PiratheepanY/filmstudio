@@ -7,7 +7,8 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
   <link rel="stylesheet prefetch" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet prefetch" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Rubik:400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Rubik:400,700,700i,900" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <title></title>
 <body>
@@ -28,7 +29,7 @@
       <div class="navbar-collapse collapse" id="navBar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
+          <li><a href="#about">About Us</a></li>
           <li><a href="#">Portfolio</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
@@ -45,7 +46,7 @@
 </section>
 
 <!--About-->
-<div class="container">
+<div class="container" id="about">
   <div class="row">
     <div class="col-lg-12">
       <div class="hero-body">
@@ -59,7 +60,7 @@
   </div>
 </div>
 
-<!--Portfolio -->
+<!--Our Skills -->
 <div class="parallax">
   <div class="container">
           <div class="hero-body">
@@ -79,7 +80,96 @@
             <p class="text-about">Pellentesque nibh augue, porttitor non feugiat a, tristique non risus. Donec tincidunt, lacus non congue accumsan, tortor ligula tincidunt lorem, non aliquam leo purus id sem.</p>
           </div>
     </div>
+  </div>
 </div>
+
+<!--Videos -->
+<div class="container">
+  <div class="hero-body">
+    <div class="col-lg-12">
+      <h1>Our Projects</h1>
+    </div>
+    <div class="col-lg-4 ">
+      <div class="videoWrapper">
+      <iframe src="https://player.vimeo.com/video/224447702" width="640" height="267" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    <p>Maecenas tortor lorem, mattis quis dolor quis, accumsan consectetur dolor. Ut sit amet luctus sapien. </p>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="videoWrapper">
+      <iframe src="https://player.vimeo.com/video/225222634" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    <p>Morbi feugiat risus purus, vel condimentum ante fermentum at. Ut dignissim massa et lectus blandit, at rutrum nisl dictum. Donec non dolor ut risus aliquam ornare.</p>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="videoWrapper">
+      <iframe src="https://player.vimeo.com/video/224987490?title=0&byline=0&portrait=0" width="640" height="346" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+    <p>Mauris maximus enim sit amet risus malesuada posuere. Nam ultrices nisi mattis imperdiet tristique. Phasellus et lacus metus. Duis feugiat cursus elit, vitae sagittis turpis tincidunt eu. </p>
+  </div>
+  </div>
+</div>
+
+<!--Quote-->
+<div class="parallax-quote">
+  <div class="container">
+    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+      <!-- Bottom Carousel Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#quote-carousel" data-slide-to="1"></li>
+        <li data-target="#quote-carousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Carousel Slides / Quotes -->
+      <div class="carousel-inner">
+        <!-- Quote 1 -->
+        <div class="item active">
+          <blockquote>
+            <div class="row">
+              <div class="col-sm-12">
+                <h2 class="text-quote">This is unbelievable. After working with Company X, my buisness skyrocketed!</h2>
+                <small>John Doe, CEO</small>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+        <!-- Quote 2 -->
+        <div class="item">
+          <blockquote>
+            <div class="row">
+              <div class="col-sm-12">
+                <h2 class="text-quote">Fantastic, I'm totally blown away by Company X.</h2>
+                <small>Someone famous</small>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+
+        <div class="item">
+          <blockquote>
+            <div class="row">
+              <div class="col-sm-12">
+                <h2 class="text-quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</h2>
+                <small>Someone famous</small>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!--Team Page-->
+<div class="container">
+  <div class="hero-body">
+    <div class="col-lg-12">
+    <h1>Team Page</h1>
+  </div>
+  </div>
 </div>
 
 </body>
