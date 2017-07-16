@@ -5,7 +5,7 @@
   <link rel="icon" href="">
   <link rel="stylesheet" href="css/style.css">
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-  <link rel="stylesheet prefetch" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet prefetch" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet prefetch" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700|Rubik:400,700,700i,900" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -30,8 +30,8 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">Home</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -84,7 +84,7 @@
 </div>
 
 <!--Videos -->
-<div class="container">
+<div class="container" id="portfolio">
   <div class="hero-body">
     <div class="col-lg-12">
       <h1>Our Projects</h1>
@@ -164,14 +164,85 @@
 </div>
 
 <!--Team Page-->
-<div class="container">
+<div class="container" id="about">
   <div class="hero-body">
-    <div class="col-lg-12">
+    <div class="col-lg-12 hero-team">
     <h1>Team Page</h1>
+    <p>Nunc vitae nisl placerat tortor condimentum posuere. Suspendisse aliquet nulla metus, sed bibendum enim dignissim quis. Mauris pharetra massa quis quam imperdiet suscipit. Donec at commodo lacus, in varius diam. Etiam sagittis auctor nisi, nec eleifend magna porttitor quis. Nam volutpat, felis in vehicula pretium, nulla velit pretium mi, non porta augue augue vel lectus. Phasellus semper diam non pharetra pellentesque. </p>
+      </div>
+    <div class="col-lg-6 hero-teampage">
+      <img class="img-teammate" src="https://cdn2.iconfinder.com/data/icons/rcons-user/32/male-fill-circle-512.png" width="150">
+      <h1>John Doe</h1>
+      <h4>Producer</h4>
+      <p> Suspendisse aliquet nulla metus, sed bibendum enim dignissim quis. Mauris pharetra massa quis quam imperdiet suscipit.</p>
+    </div>
+    <div class="col-lg-6 hero-teampage">
+      <img class="img-teammate" src="https://cdn2.iconfinder.com/data/icons/rcons-user/32/male-fill-circle-512.png" width="150">
+      <h1>John Doe</h1>
+      <h4>Creative Director</h4>
+      <p>Nam volutpat, felis in vehicula pretium, nulla velit pretium mi, non porta augue augue vel lectus. Phasellus semper diam non pharetra pellentesque. </p>
+    </div>
+    <div class="col-lg-6 hero-teampage">
+      <img class="img-teammate" src="https://cdn2.iconfinder.com/data/icons/rcons-user/32/male-fill-circle-512.png" width="150">
+      <h1>John Doe</h1>
+      <h4>Videographer</h4>
+      <p>Pellentesque tincidunt euismod elit ac maximus. Curabitur sit amet lectus eu nisl volutpat tempus nec at tortor.</p>
+    </div>
+    <div class="col-lg-6 hero-teampage">
+      <img class="img-teammate" src="https://cdn2.iconfinder.com/data/icons/rcons-user/32/male-fill-circle-512.png" width="150">
+      <h1>John Doe</h1>
+      <h4>Editor</h4>
+      <p>In sem turpis, ornare sed tincidunt ac, cursus ac purus. Cras enim eros, imperdiet vitae bibendum varius, dignissim ac eros.</p>
+    </div>
+  </div>
+</div>
+
+<!--Contact-->
+<div class="parallax-contact">
+<div class="container" id="contact">
+  <div class="hero-body">
+    <div class="col-lg-12" id="hero-contact">
+    <h1 class="contact-header">Contact</h1>
+    <p class="contact-info">Have any questions or inquires about business? Send an email and we will negoiate pricing.</p>
+    <h1 class="contact-email"><a href="mailto:filmcompany@gmail.com"><i class="ion-ios-email-outline"></i></a></h1>
+    </div>
+<div class="col-lg-12 social">
+  <h1>Follow Us</h1>
+    <div id="contact-icons">
+      <div class="col-lg-3 col-xs-3 social-icon">
+        <span class="fa-stack fa-3x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-facebook fa-stack-1x"></i>
+        </span>
+    </div>
+    <div class="col-lg-3 col-xs-3 social-icon">
+      <span class="fa-stack fa-3x">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-instagram fa-stack-1x"></i>
+      </span>
+  </div>
+  <div class="col-lg-3 col-xs-3 social-icon">
+    <span class="fa-stack fa-3x">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-vimeo fa-stack-1x"></i>
+    </span>
+</div>
+<div class="col-lg-3 col-xs-3 social-icon">
+  <span class="fa-stack fa-3x">
+    <i class="fa fa-circle fa-stack-2x"></i>
+    <i class="fa fa-youtube fa-stack-1x"></i>
+  </span>
+    </div>
+</div>
+</div>
   </div>
   </div>
 </div>
 
+<!--Footer-->
+<footer>
+ <p>Copyright 2017</p>
+</footer>
 </body>
 <script type="text/javascript" src="js/style.js"></script>
 <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>

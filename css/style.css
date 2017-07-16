@@ -158,6 +158,58 @@ blockquote:after {
   text-align:center;
 }
 
+.hero-team p {
+  margin-bottom: 70px;
+}
+
+.img-teammate {
+  display:block;
+  margin: 0 auto;
+}
+.hero-teampage h1 {
+  font-size:1.5em;
+}
+.hero-teampage p, .hero-teampage h4 {
+  text-align: center;
+}
+.hero-teampage p {
+  margin-bottom: 50px;
+}
+
+.parallax-contact {
+  background:linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .6)), url("https://images.pexels.com/photos/274937/pexels-photo-274937.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contact {
+  color:#fff;
+}
+.contact-email {
+  font-size:2em;
+  font-weight: 400;
+}
+.contact-info {
+  text-align: center;
+}
+
+.social h1 {
+  font-size: 1.2em;
+}
+
+#contact-icons .social-icon {
+  text-align: center;
+}
+.fa-facebook, .fa-instagram, .fa-vimeo, .fa-youtube{
+  color: #2c2c2c;
+}
+
+.fa-stack:hover {
+  color:#000;
+  transition: 0.3s;
+}
 /*Media Queries*/
 @media (max-width:768px) {
   .navbar-default .navbar-nav > li > a {
