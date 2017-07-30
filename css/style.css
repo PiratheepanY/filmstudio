@@ -1,4 +1,4 @@
-body, html {
+body {
   margin: 0 auto;
   width:100%;
 }
@@ -12,6 +12,7 @@ p {
   font-weight: 300;
   font-size:1.2em;
   line-height: 30px;
+  margin-bottom: 40px !important;
 }
 /*Navigation Bar*/
 .navbar-default {
@@ -86,7 +87,7 @@ p {
 }
 
 .hero-body {
-  margin: 100px 15px 80px;
+  margin: 60px 15px 80px;
 }
 
 .hero-body h1 {
@@ -105,6 +106,14 @@ p {
   background-size: cover;
 }
 
+.parallax-contact {
+  background:linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .6)), url("https://images.pexels.com/photos/274937/pexels-photo-274937.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .parallax-quote {
   height:300px;
 }
@@ -115,7 +124,7 @@ p {
     font-size:6em;
     text-align: center;
 }
-.text-header, .text-about {
+.header-white, .text-white {
   color:white;
   text-align: center;
   margin-bottom: 50px;
@@ -125,10 +134,11 @@ p {
 }
 blockquote {
     position: relative;
-    marign: 0;
+    margin: 0;
     padding: 30px 120px;
     text-align: center;
     font-size: 30px;
+    border: none !important;
 }
 blockquote:before, blockquote:after {
     position: absolute;
@@ -152,6 +162,7 @@ blockquote:after {
   color:white;
   font-size:2em;
   font-style: italic;
+  font-family: "Rubik", sans-serif !important;
 }
 .text-cite {
   color:white;
@@ -176,44 +187,42 @@ blockquote:after {
   margin-bottom: 50px;
 }
 
-.parallax-contact {
-  background:linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .6)), url("https://images.pexels.com/photos/274937/pexels-photo-274937.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+
+.contact-info, .contact-header {
+  color: #fff;
+  text-align: center;
 }
 
-#contact {
-  color:#fff;
-}
 .contact-email {
-  font-size:2em;
-  font-weight: 400;
-}
-.contact-info {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
   text-align: center;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.social-icon {
+  display: block !important;
+  margin: auto;
+}
+.social-icons {
+  margin-bottom: 20px;
 }
 
-.social h1 {
-  font-size: 1.2em;
-}
-
-#contact-icons .social-icon {
-  text-align: center;
-}
-.fa-facebook, .fa-instagram, .fa-vimeo, .fa-youtube{
-  color: #2c2c2c;
-}
-
-.fa-stack:hover {
-  color:#000;
+.fa-vimeo:hover, .fa-youtube-play:hover {
+  color: #bdbdbd;
   transition: 0.3s;
 }
+
 /*Media Queries*/
 @media (max-width:768px) {
   .navbar-default .navbar-nav > li > a {
     background-color: rgba(0,0,0, 0.9);
+  }
+  .hero-body {
+    text-align: center;
   }
 .hero-text h1 {
   font-size: 3em;

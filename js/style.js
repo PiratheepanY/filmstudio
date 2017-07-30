@@ -5,3 +5,6 @@ $(document).ready(function() {
     interval: 4000,
   });
 });
+$(document).on('click',function(){
+	$('.collapse').collapse('hide');
+})
